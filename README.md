@@ -1,5 +1,5 @@
-# Your Project's Title...
-Your project's description...
+# mdaugherty.dev
+mdaugherty.dev site
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
