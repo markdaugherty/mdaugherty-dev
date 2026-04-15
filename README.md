@@ -2,8 +2,8 @@
 mdaugherty.dev site
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--mdaugherty-dev--markdaugherty.aem.page/
+- Live: https://main--mdaugherty-dev--markdaugherty.aem.live/
 
 ## Documentation
 
