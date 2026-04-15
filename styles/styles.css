@@ -36,8 +36,6 @@
   --heading-font-size-s: 20px;
   --heading-font-size-xs: 18px;
 
-  /* nav height */
-  --nav-height: 64px;
 }
 
 /* fallback fonts */
@@ -78,16 +76,10 @@ body.appear {
   display: block;
 }
 
-header {
-  height: var(--nav-height);
-}
-
-header .header,
 footer .footer {
   visibility: hidden;
 }
 
-header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
