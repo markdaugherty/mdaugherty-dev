@@ -1,0 +1,207 @@
+/* Card grid layout — mobile first */
+.github-repos .github-repos-grid,
+.github-repos .github-repos-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.github-repos .github-repos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (width >= 600px) {
+  .github-repos .github-repos-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (width >= 900px) {
+  .github-repos .github-repos-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Card */
+.github-repos .github-repos-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  background-color: var(--background-color);
+}
+
+/* Repo name link */
+.github-repos .github-repos-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.github-repos .github-repos-card-name {
+  font-size: var(--body-font-size-m);
+  font-weight: 600;
+  color: var(--link-color);
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+.github-repos .github-repos-card-name:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Description */
+.github-repos .github-repos-card-description {
+  flex: 1;
+  margin: 0;
+  font-size: var(--body-font-size-xs);
+  color: var(--text-color);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Meta row: language + stats */
+.github-repos .github-repos-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: var(--body-font-size-xs);
+  color: var(--dark-color);
+}
+
+.github-repos .github-repos-card-language {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.github-repos .github-repos-card-language-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--dark-color);
+  flex-shrink: 0;
+}
+
+/* Language colors (GitHub colour palette) */
+.github-repos .github-repos-card-language-dot[data-language="JavaScript"] { background-color: #f1e05a; }
+.github-repos .github-repos-card-language-dot[data-language="TypeScript"] { background-color: #3178c6; }
+.github-repos .github-repos-card-language-dot[data-language="Python"] { background-color: #3572a5; }
+.github-repos .github-repos-card-language-dot[data-language="Java"] { background-color: #b07219; }
+.github-repos .github-repos-card-language-dot[data-language="Go"] { background-color: #00add8; }
+.github-repos .github-repos-card-language-dot[data-language="Rust"] { background-color: #dea584; }
+.github-repos .github-repos-card-language-dot[data-language="CSS"] { background-color: #563d7c; }
+.github-repos .github-repos-card-language-dot[data-language="HTML"] { background-color: #e34c26; }
+.github-repos .github-repos-card-language-dot[data-language="Shell"] { background-color: #89e051; }
+.github-repos .github-repos-card-language-dot[data-language="C"] { background-color: #555; }
+.github-repos .github-repos-card-language-dot[data-language="C++"] { background-color: #f34b7d; }
+.github-repos .github-repos-card-language-dot[data-language="C#"] { background-color: #178600; }
+.github-repos .github-repos-card-language-dot[data-language="Ruby"] { background-color: #701516; }
+.github-repos .github-repos-card-language-dot[data-language="PHP"] { background-color: #4f5d95; }
+.github-repos .github-repos-card-language-dot[data-language="Swift"] { background-color: #f05138; }
+.github-repos .github-repos-card-language-dot[data-language="Kotlin"] { background-color: #a97bff; }
+.github-repos .github-repos-card-language-dot[data-language="Dart"] { background-color: #00b4ab; }
+.github-repos .github-repos-card-language-dot[data-language="Scala"] { background-color: #c22d40; }
+
+/* Stats */
+.github-repos .github-repos-card-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.github-repos .github-repos-card-stars,
+.github-repos .github-repos-card-forks {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+/* Topics */
+.github-repos .github-repos-card-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.github-repos .github-repos-card-topic {
+  padding: 0.125rem 0.5rem;
+  border-radius: 2em;
+  background-color: var(--light-color);
+  font-size: var(--body-font-size-xs);
+  color: var(--link-color);
+}
+
+/* Status messages */
+.github-repos .github-repos-loading {
+  color: var(--dark-color);
+  font-style: italic;
+}
+
+.github-repos .github-repos-error {
+  color: #c00;
+}
+
+.github-repos .github-repos-empty {
+  color: var(--dark-color);
+  font-style: italic;
+}
+
+/* List variant */
+.github-repos.list .github-repos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.github-repos.list .github-repos-card {
+  gap: 0.375rem;
+}
+
+@media (width >= 600px) {
+  .github-repos.list .github-repos-card {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 2fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.375rem 1rem;
+    align-items: start;
+  }
+
+  .github-repos.list .github-repos-card-header {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .github-repos.list .github-repos-card-description {
+    grid-column: 2;
+    grid-row: 1;
+    -webkit-line-clamp: 1;
+  }
+
+  .github-repos.list .github-repos-card-meta {
+    grid-column: 3;
+    grid-row: 1;
+    justify-content: flex-end;
+  }
+
+  .github-repos.list .github-repos-card-topics {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
