@@ -123,7 +123,6 @@ function buildCard(repo) {
 export default async function decorate(block) {
   const {
     username,
-    type = 'user',
     limit = '6',
     topic = '',
     sort = 'updated',
@@ -145,16 +144,10 @@ export default async function decorate(block) {
   block.replaceChildren(loading);
 
   try {
-    const base = type === 'org'
-      ? `https://api.github.com/orgs/${encodeURIComponent(username)}/repos`
-      : `https://api.github.com/users/${encodeURIComponent(username)}/repos`;
-
-    // Fetch up to 100 so client-side filtering and star sorting work correctly
-    const apiSort = (sort === 'stars' || sort === 'name') ? 'updated' : sort;
-    const response = await fetch(`${base}?per_page=100&sort=${apiSort}&direction=desc`);
+    const response = await fetch(`/data/github-repos/${encodeURIComponent(username)}.json`);
 
     if (!response.ok) {
-      throw new Error(`GitHub API responded with ${response.status}`);
+      throw new Error(`Failed to load repo data: ${response.status}`);
     }
 
     let repos = await response.json();
