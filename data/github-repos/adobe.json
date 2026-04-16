@@ -1,0 +1,1207 @@
+[
+  {
+    "name": "helix-cli",
+    "html_url": "https://github.com/adobe/helix-cli",
+    "description": "Command-line tools for developing with AEM",
+    "language": "JavaScript",
+    "stargazers_count": 66,
+    "forks_count": 66,
+    "topics": [
+      "cli",
+      "helix",
+      "helix2",
+      "helix3"
+    ]
+  },
+  {
+    "name": "AEMCS-CDN-Log-Analysis-Tooling",
+    "html_url": "https://github.com/adobe/AEMCS-CDN-Log-Analysis-Tooling",
+    "description": null,
+    "language": null,
+    "stargazers_count": 17,
+    "forks_count": 6,
+    "topics": []
+  },
+  {
+    "name": "react-spectrum",
+    "html_url": "https://github.com/adobe/react-spectrum",
+    "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+    "language": "TypeScript",
+    "stargazers_count": 15001,
+    "forks_count": 1410,
+    "topics": [
+      "accessibility",
+      "design-systems",
+      "react",
+      "react-components",
+      "ui-components",
+      "wai-aria"
+    ]
+  },
+  {
+    "name": "aepp",
+    "html_url": "https://github.com/adobe/aepp",
+    "description": null,
+    "language": "Python",
+    "stargazers_count": 24,
+    "forks_count": 15,
+    "topics": []
+  },
+  {
+    "name": "da-universal",
+    "html_url": "https://github.com/adobe/da-universal",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "topics": []
+  },
+  {
+    "name": "helix-website",
+    "html_url": "https://github.com/adobe/helix-website",
+    "description": "The Helix website https://www.aem.live/",
+    "language": "JavaScript",
+    "stargazers_count": 41,
+    "forks_count": 56,
+    "topics": [
+      "documentation",
+      "helix"
+    ]
+  },
+  {
+    "name": "aem-dispatcher-docker",
+    "html_url": "https://github.com/adobe/aem-dispatcher-docker",
+    "description": "AEM Dispatcher Docker Container",
+    "language": "Shell",
+    "stargazers_count": 27,
+    "forks_count": 17,
+    "topics": [
+      "aem",
+      "dispatcher",
+      "docker"
+    ]
+  },
+  {
+    "name": "skills",
+    "html_url": "https://github.com/adobe/skills",
+    "description": "Adobe Skills for Agents",
+    "language": "JavaScript",
+    "stargazers_count": 28,
+    "forks_count": 15,
+    "topics": [
+      "adobe",
+      "ai-agents",
+      "skills"
+    ]
+  },
+  {
+    "name": "imscli",
+    "html_url": "https://github.com/adobe/imscli",
+    "description": "A small CLI tool to interact with the Adobe IMS API.",
+    "language": "Go",
+    "stargazers_count": 14,
+    "forks_count": 8,
+    "topics": [
+      "cli",
+      "ims",
+      "oauth2",
+      "oauth2-client"
+    ]
+  },
+  {
+    "name": "aem-lib",
+    "html_url": "https://github.com/adobe/aem-lib",
+    "description": null,
+    "language": "HTML",
+    "stargazers_count": 5,
+    "forks_count": 10,
+    "topics": []
+  },
+  {
+    "name": "helix-api-service",
+    "html_url": "https://github.com/adobe/helix-api-service",
+    "description": "Helix 6 API Service",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "topics": [
+      "helix",
+      "helix-tier2",
+      "service"
+    ]
+  },
+  {
+    "name": "aio-cli-plugin-aem-edge-functions",
+    "html_url": "https://github.com/adobe/aio-cli-plugin-aem-edge-functions",
+    "description": "AIO Plugin for AEM Edge Compute",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "aem-edge-functions-boilerplate",
+    "html_url": "https://github.com/adobe/aem-edge-functions-boilerplate",
+    "description": "AEM Edge Functions Boilerplate",
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "topics": []
+  },
+  {
+    "name": "ims-go",
+    "html_url": "https://github.com/adobe/ims-go",
+    "description": "Go Client library for IMS",
+    "language": "Go",
+    "stargazers_count": 11,
+    "forks_count": 7,
+    "topics": []
+  },
+  {
+    "name": "S3Mock",
+    "html_url": "https://github.com/adobe/S3Mock",
+    "description": "A mock implementation of the AWS S3 API startable as Docker image, TestContainer, JUnit 4 rule, JUnit Jupiter extension or TestNG listener",
+    "language": "Kotlin",
+    "stargazers_count": 1084,
+    "forks_count": 196,
+    "topics": [
+      "amd64",
+      "arm64",
+      "aws",
+      "aws-s3",
+      "docker",
+      "java",
+      "junit",
+      "kotlin",
+      "mock",
+      "s3",
+      "testcontainers",
+      "testing"
+    ]
+  },
+  {
+    "name": "spacecat-audit-worker",
+    "html_url": "https://github.com/adobe/spacecat-audit-worker",
+    "description": "SpaceCat Audit Worker for auditing edge delivery sites.",
+    "language": "JavaScript",
+    "stargazers_count": 12,
+    "forks_count": 13,
+    "topics": []
+  },
+  {
+    "name": "spacecat-api-service",
+    "html_url": "https://github.com/adobe/spacecat-api-service",
+    "description": "Edge Delivery services experience success as a service automation: SpaceCat + Star Catalogue",
+    "language": "JavaScript",
+    "stargazers_count": 6,
+    "forks_count": 10,
+    "topics": []
+  },
+  {
+    "name": "aem-forms-headless-components",
+    "html_url": "https://github.com/adobe/aem-forms-headless-components",
+    "description": null,
+    "language": "TypeScript",
+    "stargazers_count": 8,
+    "forks_count": 5,
+    "topics": []
+  },
+  {
+    "name": "aem-forms-af-runtime",
+    "html_url": "https://github.com/adobe/aem-forms-af-runtime",
+    "description": "AEM Forms - Adaptive Forms core runtime",
+    "language": "HTML",
+    "stargazers_count": 7,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "spectrum-web-components",
+    "html_url": "https://github.com/adobe/spectrum-web-components",
+    "description": "Spectrum Web Components",
+    "language": "TypeScript",
+    "stargazers_count": 1502,
+    "forks_count": 248,
+    "topics": [
+      "adobe",
+      "spectrum",
+      "webcomponents"
+    ]
+  },
+  {
+    "name": "aem-sidekick",
+    "html_url": "https://github.com/adobe/aem-sidekick",
+    "description": "Adobe Experience Manager Sidekick",
+    "language": "JavaScript",
+    "stargazers_count": 3,
+    "forks_count": 5,
+    "topics": [
+      "aem",
+      "helix"
+    ]
+  },
+  {
+    "name": "helix-tools-website",
+    "html_url": "https://github.com/adobe/helix-tools-website",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 3,
+    "forks_count": 5,
+    "topics": []
+  },
+  {
+    "name": "aio-template-submission",
+    "html_url": "https://github.com/adobe/aio-template-submission",
+    "description": "Adobe App Builder Template Registry",
+    "language": "JavaScript",
+    "stargazers_count": 6,
+    "forks_count": 9,
+    "topics": []
+  },
+  {
+    "name": "brackets",
+    "html_url": "https://github.com/adobe/brackets",
+    "description": "An open source code editor for the web, written in JavaScript, HTML and CSS.",
+    "language": "JavaScript",
+    "stargazers_count": 33078,
+    "forks_count": 7505,
+    "topics": []
+  },
+  {
+    "name": "openpbr-bsdf",
+    "html_url": "https://github.com/adobe/openpbr-bsdf",
+    "description": "Adobe's reference implementation of the OpenPBR BSDF",
+    "language": "C",
+    "stargazers_count": 369,
+    "forks_count": 23,
+    "topics": []
+  },
+  {
+    "name": "pardon",
+    "html_url": "https://github.com/adobe/pardon",
+    "description": "another HTTP request framework",
+    "language": "TypeScript",
+    "stargazers_count": 8,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "da-live",
+    "html_url": "https://github.com/adobe/da-live",
+    "description": "Edge Delivery Authoring",
+    "language": "JavaScript",
+    "stargazers_count": 31,
+    "forks_count": 60,
+    "topics": []
+  },
+  {
+    "name": "aio-e2e-tests",
+    "html_url": "https://github.com/adobe/aio-e2e-tests",
+    "description": "End to end testing for aio-* repos",
+    "language": "JavaScript",
+    "stargazers_count": 5,
+    "forks_count": 8,
+    "topics": [
+      "adobe-io",
+      "e2e-testing",
+      "sdk"
+    ]
+  },
+  {
+    "name": "prometheus-multi-tenant-proxy",
+    "html_url": "https://github.com/adobe/prometheus-multi-tenant-proxy",
+    "description": "Prometheus Multi-Tenant Proxy to securely expose metrics in a multi-tenant deployment of Prometheus.",
+    "language": "Go",
+    "stargazers_count": 6,
+    "forks_count": 2,
+    "topics": []
+  },
+  {
+    "name": "helix-universal-devserver",
+    "html_url": "https://github.com/adobe/helix-universal-devserver",
+    "description": "Development server for universal functions",
+    "language": "JavaScript",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "topics": [
+      "helix",
+      "library",
+      "universal"
+    ]
+  },
+  {
+    "name": "helix-html2md-service",
+    "html_url": "https://github.com/adobe/helix-html2md-service",
+    "description": "Service to convert Helix Generic HTML Content to Markdown.",
+    "language": "JavaScript",
+    "stargazers_count": 18,
+    "forks_count": 11,
+    "topics": [
+      "helix",
+      "helix-tier2",
+      "html",
+      "markdown",
+      "publishing",
+      "service"
+    ]
+  },
+  {
+    "name": "helix-coralogix-feeder",
+    "html_url": "https://github.com/adobe/helix-coralogix-feeder",
+    "description": "Service that subscribes to AWS CloudWatch logs for Franklin services and pushes them to Coralogix.",
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 4,
+    "topics": [
+      "aws",
+      "franklin",
+      "helix",
+      "service",
+      "tier2"
+    ]
+  },
+  {
+    "name": "aio-commerce-sdk",
+    "html_url": "https://github.com/adobe/aio-commerce-sdk",
+    "description": "Provides a collection of packages designed for use with Adobe App Builder together with Adobe Commerce.",
+    "language": "TypeScript",
+    "stargazers_count": 10,
+    "forks_count": 5,
+    "topics": [
+      "adobe",
+      "adobe-commerce",
+      "adobe-commerce-sdk",
+      "adobe-io",
+      "aio",
+      "aio-commerce",
+      "aio-commerce-sdk",
+      "app-builder"
+    ]
+  },
+  {
+    "name": "helix-slack-notification",
+    "html_url": "https://github.com/adobe/helix-slack-notification",
+    "description": "Helix Slack Notification Service",
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "topics": [
+      "helix",
+      "helix-tier2",
+      "service"
+    ]
+  },
+  {
+    "name": "helix-deploy-plugin-webpack",
+    "html_url": "https://github.com/adobe/helix-deploy-plugin-webpack",
+    "description": "Helix Deploy - Webpack Plugin",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "topics": [
+      "cli",
+      "helix",
+      "webpack"
+    ]
+  },
+  {
+    "name": "aio-cli-plugin-api-mesh",
+    "html_url": "https://github.com/adobe/aio-cli-plugin-api-mesh",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 7,
+    "forks_count": 7,
+    "topics": []
+  },
+  {
+    "name": "adobe-client-data-layer",
+    "html_url": "https://github.com/adobe/adobe-client-data-layer",
+    "description": "An event-driven store for all trackable data of your site.",
+    "language": "JavaScript",
+    "stargazers_count": 120,
+    "forks_count": 26,
+    "topics": []
+  },
+  {
+    "name": "aem-spa-component-mapping",
+    "html_url": "https://github.com/adobe/aem-spa-component-mapping",
+    "description": "Provides a way to map Single Page Application front-end components with Adobe Experience Manager resource types.",
+    "language": "TypeScript",
+    "stargazers_count": 26,
+    "forks_count": 5,
+    "topics": [
+      "aem",
+      "spa"
+    ]
+  },
+  {
+    "name": "commerce-integration-starter-kit",
+    "html_url": "https://github.com/adobe/commerce-integration-starter-kit",
+    "description": "Adobe's integration starter kit uses Adobe Developer App Builder to improve real-time connection reliability and reduce the time-to-market for integrations between Adobe Commerce and other back-office systems, such as ERPs, CRMs, and PIMs.",
+    "language": "JavaScript",
+    "stargazers_count": 38,
+    "forks_count": 20,
+    "topics": []
+  },
+  {
+    "name": "aem-boilerplate",
+    "html_url": "https://github.com/adobe/aem-boilerplate",
+    "description": "Use this repository template for new AEM projects.",
+    "language": "JavaScript",
+    "stargazers_count": 182,
+    "forks_count": 633,
+    "topics": [
+      "helix",
+      "helix3",
+      "helix4",
+      "helix5",
+      "repository-template"
+    ]
+  },
+  {
+    "name": "aem-core-cif-components",
+    "html_url": "https://github.com/adobe/aem-core-cif-components",
+    "description": "A set of configurations and components to get you started with AEM Commerce development",
+    "language": "Java",
+    "stargazers_count": 110,
+    "forks_count": 78,
+    "topics": [
+      "adobe",
+      "aem",
+      "cif",
+      "commerce",
+      "components",
+      "frontend",
+      "magento"
+    ]
+  },
+  {
+    "name": "aem-cif-guides-venia",
+    "html_url": "https://github.com/adobe/aem-cif-guides-venia",
+    "description": "AEM CIF Venia Project",
+    "language": "JavaScript",
+    "stargazers_count": 42,
+    "forks_count": 33,
+    "topics": [
+      "adobe-experience-manager",
+      "aem",
+      "aem-as-a-service",
+      "cif",
+      "core-components",
+      "magento",
+      "magento2"
+    ]
+  },
+  {
+    "name": "helix-pages",
+    "html_url": "https://github.com/adobe/helix-pages",
+    "description": "Helix Pages",
+    "language": "JavaScript",
+    "stargazers_count": 9,
+    "forks_count": 8,
+    "topics": [
+      "helix",
+      "helix2",
+      "service"
+    ]
+  },
+  {
+    "name": "coriolis",
+    "html_url": "https://github.com/adobe/coriolis",
+    "description": "A library for cross iframe communication with high level API and features.",
+    "language": "TypeScript",
+    "stargazers_count": 40,
+    "forks_count": 8,
+    "topics": []
+  },
+  {
+    "name": "aem-spa-page-model-manager",
+    "html_url": "https://github.com/adobe/aem-spa-page-model-manager",
+    "description": "Interface between Adobe Experience Manager and Single Page Application framework.",
+    "language": "TypeScript",
+    "stargazers_count": 38,
+    "forks_count": 25,
+    "topics": [
+      "aem",
+      "spa"
+    ]
+  },
+  {
+    "name": "klickhaus",
+    "html_url": "https://github.com/adobe/klickhaus",
+    "description": "Ein Haus, das klickt!",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "topics": [
+      "clickhouse",
+      "helix",
+      "operations"
+    ]
+  },
+  {
+    "name": "aio-reusable-workflows",
+    "html_url": "https://github.com/adobe/aio-reusable-workflows",
+    "description": null,
+    "language": null,
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "spacecat-shared",
+    "html_url": "https://github.com/adobe/spacecat-shared",
+    "description": "Shared modules for Spacecat Services",
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "adobe.github.com",
+    "html_url": "https://github.com/adobe/adobe.github.com",
+    "description": "Adobe central hub for open source",
+    "language": "CSS",
+    "stargazers_count": 1582,
+    "forks_count": 374,
+    "topics": []
+  },
+  {
+    "name": "aem-rockstar-website",
+    "html_url": "https://github.com/adobe/aem-rockstar-website",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 6,
+    "topics": []
+  },
+  {
+    "name": "swan",
+    "html_url": "https://github.com/adobe/swan",
+    "description": "A cross-platform Swift API for WebGPU",
+    "language": "Python",
+    "stargazers_count": 29,
+    "forks_count": 2,
+    "topics": []
+  },
+  {
+    "name": "elixir-styler",
+    "html_url": "https://github.com/adobe/elixir-styler",
+    "description": "An @elixir-lang code-style enforcer that will just FIFY instead of complaining",
+    "language": "Elixir",
+    "stargazers_count": 790,
+    "forks_count": 44,
+    "topics": [
+      "elixir",
+      "formatter",
+      "styler"
+    ]
+  },
+  {
+    "name": "xdm",
+    "html_url": "https://github.com/adobe/xdm",
+    "description": "Experience Data Model",
+    "language": "JavaScript",
+    "stargazers_count": 261,
+    "forks_count": 370,
+    "topics": [
+      "data-models",
+      "json-schema",
+      "xdm"
+    ]
+  },
+  {
+    "name": "aio-pkg-utils",
+    "html_url": "https://github.com/adobe/aio-pkg-utils",
+    "description": "monorepo of small unrelated npm published utility packages",
+    "language": "JavaScript",
+    "stargazers_count": 3,
+    "forks_count": 4,
+    "topics": []
+  },
+  {
+    "name": "aemanalyser-maven-plugin",
+    "html_url": "https://github.com/adobe/aemanalyser-maven-plugin",
+    "description": "A Maven plugin used by developers who develop Java components for AEMaaCS (AEM as a Cloud Service) during their local Java builds to ensure that their components work correctly in when deployed to AEM as a Cloud Service.",
+    "language": "Java",
+    "stargazers_count": 27,
+    "forks_count": 24,
+    "topics": []
+  },
+  {
+    "name": "helix-deploy-plugin-google",
+    "html_url": "https://github.com/adobe/helix-deploy-plugin-google",
+    "description": "Helix Deploy - Google Plugin",
+    "language": "JavaScript",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "topics": [
+      "cli",
+      "google-cloud",
+      "helix"
+    ]
+  },
+  {
+    "name": "aem-core-wcm-components",
+    "html_url": "https://github.com/adobe/aem-core-wcm-components",
+    "description": "Standardized components to build websites with AEM.",
+    "language": "Java",
+    "stargazers_count": 784,
+    "forks_count": 763,
+    "topics": [
+      "aem",
+      "aem-site",
+      "aem64",
+      "aem65",
+      "cloud-service",
+      "wcm-components"
+    ]
+  },
+  {
+    "name": "eslint-plugin-premierepro",
+    "html_url": "https://github.com/adobe/eslint-plugin-premierepro",
+    "description": "ESLint rules for Adobe Premiere Pro UXP API usage.",
+    "language": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "helix-rum-enhancer",
+    "html_url": "https://github.com/adobe/helix-rum-enhancer",
+    "description": "Add advanced functionality to Helix RUM Collection (client-side)",
+    "language": "HTML",
+    "stargazers_count": 3,
+    "forks_count": 16,
+    "topics": [
+      "helix",
+      "real-user-monitoring"
+    ]
+  },
+  {
+    "name": "helix-rum-bundler",
+    "html_url": "https://github.com/adobe/helix-rum-bundler",
+    "description": null,
+    "language": "HTML",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "topics": [
+      "helix",
+      "helix-tier2",
+      "sdervice"
+    ]
+  },
+  {
+    "name": "aepsdk-concierge-android",
+    "html_url": "https://github.com/adobe/aepsdk-concierge-android",
+    "description": "Android support for Brand Concierge project.",
+    "language": "Kotlin",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "leonardo",
+    "html_url": "https://github.com/adobe/leonardo",
+    "description": "Generate colors based on a desired contrast ratio",
+    "language": "JavaScript",
+    "stargazers_count": 2106,
+    "forks_count": 124,
+    "topics": [
+      "a11y",
+      "color",
+      "color-generator",
+      "color-palette",
+      "color-palette-generator",
+      "color-picker",
+      "color-theme",
+      "color-theme-switcher",
+      "color-themes",
+      "colors",
+      "colorscheme",
+      "colorscheme-generator",
+      "contrast",
+      "contrast-ratio",
+      "dark"
+    ]
+  },
+  {
+    "name": "da-nx",
+    "html_url": "https://github.com/adobe/da-nx",
+    "description": "Next generation shell for Edge Delivery applications",
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 25,
+    "topics": []
+  },
+  {
+    "name": "data",
+    "html_url": "https://github.com/adobe/data",
+    "description": "Adobe Data Oriented Programming Library",
+    "language": "TypeScript",
+    "stargazers_count": 10,
+    "forks_count": 6,
+    "topics": []
+  },
+  {
+    "name": "spectrum-hub",
+    "html_url": "https://github.com/adobe/spectrum-hub",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "spectrum-css",
+    "html_url": "https://github.com/adobe/spectrum-css",
+    "description": "The standard CSS implementation of the Spectrum design language.",
+    "language": "CSS",
+    "stargazers_count": 1266,
+    "forks_count": 207,
+    "topics": [
+      "css",
+      "design-system"
+    ]
+  },
+  {
+    "name": "react-spectrum-charts",
+    "html_url": "https://github.com/adobe/react-spectrum-charts",
+    "description": "Build compelling visualizations using declarative react components. ",
+    "language": "TypeScript",
+    "stargazers_count": 116,
+    "forks_count": 24,
+    "topics": [
+      "adobe",
+      "charts",
+      "react",
+      "spectrum",
+      "visualization"
+    ]
+  },
+  {
+    "name": "alloy",
+    "html_url": "https://github.com/adobe/alloy",
+    "description": "Alloy is the web SDK for the Adobe Experience Platform.",
+    "language": "JavaScript",
+    "stargazers_count": 103,
+    "forks_count": 56,
+    "topics": []
+  },
+  {
+    "name": "aem-assets-details-ext-tpl",
+    "html_url": "https://github.com/adobe/aem-assets-details-ext-tpl",
+    "description": "Asset Details extension template for the AEM Assets View.",
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "aem-assets-browse-ext-tpl",
+    "html_url": "https://github.com/adobe/aem-assets-browse-ext-tpl",
+    "description": "Browse mode extension template for the AEM Assets View.",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "topics": []
+  },
+  {
+    "name": "css-for-shadow-dom",
+    "html_url": "https://github.com/adobe/css-for-shadow-dom",
+    "description": "Tracking the state of support for CSS features within and across the shadow DOM to provide visibility into feature parity, usage details, and outstanding issues and bugs.",
+    "language": "JavaScript",
+    "stargazers_count": 11,
+    "forks_count": 2,
+    "topics": [
+      "css",
+      "shadow-dom",
+      "shadow-dom-support",
+      "web-components"
+    ]
+  },
+  {
+    "name": "adobe-design-website",
+    "html_url": "https://github.com/adobe/adobe-design-website",
+    "description": "Adobe Design Website on AEM",
+    "language": "JavaScript",
+    "stargazers_count": 7,
+    "forks_count": 2,
+    "topics": []
+  },
+  {
+    "name": "jsonschema2md",
+    "html_url": "https://github.com/adobe/jsonschema2md",
+    "description": "Convert Complex JSON Schemas into Markdown Documentation",
+    "language": "JavaScript",
+    "stargazers_count": 715,
+    "forks_count": 150,
+    "topics": [
+      "json-schema",
+      "markdown"
+    ]
+  },
+  {
+    "name": "helix-rum-js",
+    "html_url": "https://github.com/adobe/helix-rum-js",
+    "description": "Helix RUM Event Generator for JavaScript",
+    "language": "JavaScript",
+    "stargazers_count": 7,
+    "forks_count": 7,
+    "topics": [
+      "helix",
+      "rum"
+    ]
+  },
+  {
+    "name": "premierepro-types",
+    "html_url": "https://github.com/adobe/premierepro-types",
+    "description": "Sample repository for managing TypeScript declarations with 3P UXP APIs in Premiere.",
+    "language": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "aem-status",
+    "html_url": "https://github.com/adobe/aem-status",
+    "description": "aemstatus.net",
+    "language": "HTML",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "topics": [
+      "helix",
+      "observability",
+      "statuspage"
+    ]
+  },
+  {
+    "name": "fastly-native-promises",
+    "html_url": "https://github.com/adobe/fastly-native-promises",
+    "description": "Promise based Fastly API client for Node.js",
+    "language": "JavaScript",
+    "stargazers_count": 16,
+    "forks_count": 8,
+    "topics": [
+      "fastly",
+      "helix",
+      "helix2",
+      "helix3",
+      "library"
+    ]
+  },
+  {
+    "name": "aio-lib-db",
+    "html_url": "https://github.com/adobe/aio-lib-db",
+    "description": "aio-lib-db is a lightweight document database library for Adobe I/O Runtime apps.",
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "aem-auth-demo",
+    "html_url": "https://github.com/adobe/aem-auth-demo",
+    "description": "AEM demo project for authentication",
+    "language": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "bridgeService",
+    "html_url": "https://github.com/adobe/bridgeService",
+    "description": "The BridgeService is a library that allows your project to access java code to which you do not have implicite and normal access. Use cases are JS/Python/C++ accessing Java objects or java objects that are protected, and that you do not want to distribute as a library. ",
+    "language": "Java",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "topics": [
+      "cross-compiler",
+      "cross-platform",
+      "integro",
+      "jni",
+      "jni-java",
+      "omg"
+    ]
+  },
+  {
+    "name": "helix-deploy",
+    "html_url": "https://github.com/adobe/helix-deploy",
+    "description": "A multi-cloud deployment tool for serverless functions running on AWS Lambda, Adobe I/O Runtime, Azure Functions, and Google Cloud Functions. Write once, run everywhere.",
+    "language": "JavaScript",
+    "stargazers_count": 17,
+    "forks_count": 19,
+    "topics": [
+      "aws-lambda",
+      "azure-functions",
+      "cli",
+      "google-cloud-functions",
+      "helix",
+      "helix2",
+      "helix3",
+      "lambda",
+      "openwhisk",
+      "serverless",
+      "tooling"
+    ]
+  },
+  {
+    "name": "da-admin",
+    "html_url": "https://github.com/adobe/da-admin",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 6,
+    "forks_count": 13,
+    "topics": []
+  },
+  {
+    "name": "create-ccweb-add-on",
+    "html_url": "https://github.com/adobe/create-ccweb-add-on",
+    "description": "Create add-ons for Adobe Express",
+    "language": "TypeScript",
+    "stargazers_count": 5,
+    "forks_count": 2,
+    "topics": [
+      "add-ons",
+      "adobe-express"
+    ]
+  },
+  {
+    "name": "helix-media-log",
+    "html_url": "https://github.com/adobe/helix-media-log",
+    "description": null,
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "topics": [
+      "helix",
+      "helix-tier2",
+      "service"
+    ]
+  },
+  {
+    "name": "helix-html-pipeline",
+    "html_url": "https://github.com/adobe/helix-html-pipeline",
+    "description": "A library for rendering the html response in Helix3.",
+    "language": "JavaScript",
+    "stargazers_count": 16,
+    "forks_count": 18,
+    "topics": [
+      "helix",
+      "helix-tier1",
+      "helix3",
+      "html",
+      "library",
+      "markdown",
+      "pipeline"
+    ]
+  },
+  {
+    "name": "helix-rum-collector",
+    "html_url": "https://github.com/adobe/helix-rum-collector",
+    "description": "Collect Operational Telemetry data with edge computing",
+    "language": "JavaScript",
+    "stargazers_count": 7,
+    "forks_count": 6,
+    "topics": [
+      "fastly",
+      "helix",
+      "helix2",
+      "helix3",
+      "rum",
+      "service"
+    ]
+  },
+  {
+    "name": "helix-onedrive-support",
+    "html_url": "https://github.com/adobe/helix-onedrive-support",
+    "description": "OneDrive Helper Library ",
+    "language": "JavaScript",
+    "stargazers_count": 9,
+    "forks_count": 4,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "msgraph",
+      "onedrive"
+    ]
+  },
+  {
+    "name": "spacecat-task-processor",
+    "html_url": "https://github.com/adobe/spacecat-task-processor",
+    "description": "SpaceCat Task Processor for processing tasks to be used in async processes such as Step functions",
+    "language": "JavaScript",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "trustmark",
+    "html_url": "https://github.com/adobe/trustmark",
+    "description": "TrustMark - Universal Watermarking for Arbitrary Resolution Images",
+    "language": "JavaScript",
+    "stargazers_count": 100,
+    "forks_count": 23,
+    "topics": [
+      "cai",
+      "content-authenticity",
+      "provenance",
+      "watermarking"
+    ]
+  },
+  {
+    "name": "aepsdk-concierge-ios",
+    "html_url": "https://github.com/adobe/aepsdk-concierge-ios",
+    "description": "AEP SDK extension for iOS that supports Concierge integrations.",
+    "language": "Swift",
+    "stargazers_count": 1,
+    "forks_count": 5,
+    "topics": []
+  },
+  {
+    "name": "jsrl",
+    "html_url": "https://github.com/adobe/jsrl",
+    "description": "A modern C++ JSON library designed around UTF-8 correctness, immutability, and high-fidelity number representation.",
+    "language": "C++",
+    "stargazers_count": 3,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "htlengine",
+    "html_url": "https://github.com/adobe/htlengine",
+    "description": "An HTL (Sightly) Interpreter/Compiler for Node.js",
+    "language": "HTML",
+    "stargazers_count": 48,
+    "forks_count": 19,
+    "topics": [
+      "helix",
+      "helix2",
+      "htl",
+      "javascript",
+      "library"
+    ]
+  },
+  {
+    "name": "helix-home",
+    "html_url": "https://github.com/adobe/helix-home",
+    "description": "The home of Project Helix",
+    "language": "HTML",
+    "stargazers_count": 66,
+    "forks_count": 87,
+    "topics": [
+      "helix"
+    ]
+  },
+  {
+    "name": "helix-markdown-support",
+    "html_url": "https://github.com/adobe/helix-markdown-support",
+    "description": "Various markdown related parsing, processing and stringification utilities.",
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 3,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "markdown",
+      "micromark",
+      "remark",
+      "unified"
+    ]
+  },
+  {
+    "name": "helix-eslint-config",
+    "html_url": "https://github.com/adobe/helix-eslint-config",
+    "description": "Eslint config used in helix projects.",
+    "language": "JavaScript",
+    "stargazers_count": 4,
+    "forks_count": 6,
+    "topics": [
+      "eslint",
+      "eslint-config",
+      "helix",
+      "helix2",
+      "helix3",
+      "library"
+    ]
+  },
+  {
+    "name": "helix-universal",
+    "html_url": "https://github.com/adobe/helix-universal",
+    "description": "The base API for Universal Serverless Functions",
+    "language": "JavaScript",
+    "stargazers_count": 5,
+    "forks_count": 7,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "universal-runtime"
+    ]
+  },
+  {
+    "name": "helix-status",
+    "html_url": "https://github.com/adobe/helix-status",
+    "description": "Report status for OpenWhisk Microservices for New Relic (and others) Uptime (HTTP) checks",
+    "language": "JavaScript",
+    "stargazers_count": 6,
+    "forks_count": 4,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "monitoring",
+      "newrelic"
+    ]
+  },
+  {
+    "name": "helix-universal-logger",
+    "html_url": "https://github.com/adobe/helix-universal-logger",
+    "description": "A logger to be used in universal serverless actions",
+    "language": "JavaScript",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "logging"
+    ]
+  },
+  {
+    "name": "helix-onedrive-cli",
+    "html_url": "https://github.com/adobe/helix-onedrive-cli",
+    "description": "Command-line tools for onedrive integration",
+    "language": "JavaScript",
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "topics": [
+      "cli",
+      "helix",
+      "helix2",
+      "helix3"
+    ]
+  },
+  {
+    "name": "helix-log",
+    "html_url": "https://github.com/adobe/helix-log",
+    "description": "Log framework designed for use with project helix",
+    "language": "JavaScript",
+    "stargazers_count": 5,
+    "forks_count": 3,
+    "topics": [
+      "helix",
+      "helix2",
+      "helix3",
+      "library",
+      "logging"
+    ]
+  }
+]
