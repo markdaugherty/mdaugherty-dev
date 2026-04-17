@@ -24,17 +24,17 @@
   --heading-font-family: jetbrains-mono, jetbrains-mono-fallback, monospace;
 
   /* body sizes */
-  --body-font-size-m: 18px;
-  --body-font-size-s: 16px;
-  --body-font-size-xs: 14px;
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 48px;
-  --heading-font-size-xl: 38px;
-  --heading-font-size-l: 30px;
-  --heading-font-size-m: 24px;
-  --heading-font-size-s: 20px;
-  --heading-font-size-xs: 18px;
+  --heading-font-size-xxl: 40px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 26px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
 
 }
 
@@ -48,17 +48,17 @@
 @media (width >= 900px) {
   :root {
     /* body sizes */
-    --body-font-size-m: 16px;
-    --body-font-size-s: 14px;
-    --body-font-size-xs: 13px;
+    --body-font-size-m: 14px;
+    --body-font-size-s: 12px;
+    --body-font-size-xs: 11px;
 
     /* heading sizes */
-    --heading-font-size-xxl: 40px;
-    --heading-font-size-xl: 32px;
-    --heading-font-size-l: 26px;
-    --heading-font-size-m: 20px;
-    --heading-font-size-s: 18px;
-    --heading-font-size-xs: 16px;
+    --heading-font-size-xxl: 32px;
+    --heading-font-size-xl: 26px;
+    --heading-font-size-l: 22px;
+    --heading-font-size-m: 18px;
+    --heading-font-size-s: 16px;
+    --heading-font-size-xs: 14px;
   }
 }
 
@@ -96,6 +96,10 @@ h6 {
   font-weight: 600;
   line-height: 1.25;
   scroll-margin: 40px;
+}
+
+h3 {
+  margin-bottom: 0.8em;
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
