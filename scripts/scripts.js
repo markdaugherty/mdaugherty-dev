@@ -8,7 +8,7 @@ import {
   waitForFirstImage,
   loadSection,
   loadSections,
-  loadCSS,
+  loadCSS, decorateBlock, loadBlock,
 } from './aem.js';
 
 /**
@@ -28,6 +28,19 @@ function buildHeroBlock(main) {
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
   }
+}
+
+function buildVideoBlocks(main) {
+  const links = [...main.querySelectorAll('a')]
+    .filter((link) => link.href.includes('youtube') && !link.closest('.block'));
+
+  links.forEach((link) => {
+    const parent = link.parentElement;
+    const block = buildBlock('video', { elems: [link] });
+    parent.append(block);
+    decorateBlock(block);
+    loadBlock(block);
+  });
 }
 
 /**
@@ -67,6 +80,7 @@ function buildAutoBlocks(main) {
     }
 
     buildHeroBlock(main);
+    buildVideoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);

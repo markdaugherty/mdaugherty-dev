@@ -587,18 +587,6 @@ function decorateBlocks(main) {
 }
 
 /**
- * Loads a block named 'header' into header
- * @param {Element} header header element
- * @returns {Promise}
- */
-async function loadHeader(header) {
-  const headerBlock = buildBlock('header', '');
-  header.append(headerBlock);
-  decorateBlock(headerBlock);
-  return loadBlock(headerBlock);
-}
-
-/**
  * Loads a block named 'footer' into footer
  * @param footer footer element
  * @returns {Promise}
@@ -677,7 +665,6 @@ export {
   loadBlock,
   loadCSS,
   loadFooter,
-  loadHeader,
   loadScript,
   loadSection,
   loadSections,
