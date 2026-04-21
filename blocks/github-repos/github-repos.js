@@ -1,22 +1,4 @@
 /**
- * Parses the key/value configuration rows authored into the block.
- * @param {Element} block The block element
- * @returns {Object} Configuration object
- */
-function parseConfig(block) {
-  const config = {};
-  block.querySelectorAll(':scope > div').forEach((row) => {
-    const cells = row.querySelectorAll(':scope > div');
-    if (cells.length === 2) {
-      const key = cells[0].textContent.trim().toLowerCase();
-      const value = cells[1].textContent.trim();
-      if (key) config[key] = value;
-    }
-  });
-  return config;
-}
-
-/**
  * Creates a status message paragraph and replaces block contents with it.
  * @param {Element} block The block element
  * @param {string} className CSS class for the paragraph
@@ -121,19 +103,6 @@ function buildCard(repo) {
  * @param {Element} block The block element
  */
 export default async function decorate(block) {
-  const {
-    username,
-    limit = '6',
-    topic = '',
-    sort = 'updated',
-  } = parseConfig(block);
-
-  if (!username) {
-    showMessage(block, 'github-repos-error', 'No GitHub username configured.');
-    return;
-  }
-
-  const limitNum = parseInt(limit, 10) || 6;
   const isList = block.classList.contains('list');
 
   // Show loading state while fetching
@@ -144,27 +113,13 @@ export default async function decorate(block) {
   block.replaceChildren(loading);
 
   try {
-    const response = await fetch(`/data/github-repos/${encodeURIComponent(username)}.json`);
+    const response = await fetch('/data/github-repos/repos.json');
 
     if (!response.ok) {
       throw new Error(`Failed to load repo data: ${response.status}`);
     }
 
-    let repos = await response.json();
-
-    // Client-side topic filter
-    if (topic) {
-      repos = repos.filter((repo) => Array.isArray(repo.topics) && repo.topics.includes(topic));
-    }
-
-    // Client-side sort for stars and name
-    if (sort === 'stars') {
-      repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
-    } else if (sort === 'name') {
-      repos.sort((a, b) => a.name.localeCompare(b.name));
-    }
-
-    repos = repos.slice(0, limitNum);
+    const repos = await response.json();
 
     if (repos.length === 0) {
       showMessage(block, 'github-repos-empty', 'No repositories found.');
@@ -173,7 +128,7 @@ export default async function decorate(block) {
 
     const ul = document.createElement('ul');
     ul.className = isList ? 'github-repos-list' : 'github-repos-grid';
-    ul.setAttribute('aria-label', `${username} repositories`);
+    ul.setAttribute('aria-label', 'GitHub Repositories');
 
     repos.forEach((repo) => ul.append(buildCard(repo)));
 
