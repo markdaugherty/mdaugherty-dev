@@ -1,0 +1,147 @@
+[
+  {
+    "name": "aem-groovy-console",
+    "html_url": "https://github.com/orbinson/aem-groovy-console",
+    "description": "The AEM Groovy Console provides an interface for running Groovy scripts in the AEM container. Scripts can be created to manipulate content in the JCR, call OSGi services, or execute arbitrary code using the CQ, Sling, or JCR APIs.",
+    "language": "JavaScript",
+    "stargazers_count": 24,
+    "forks_count": 9,
+    "topics": [
+      "aem",
+      "aem-groovy-console",
+      "aem-groovy-scripts",
+      "groovy"
+    ]
+  },
+  {
+    "name": "prosper",
+    "html_url": "https://github.com/icfnext/prosper",
+    "description": "A Spock-based integration testing library for prosperous AEM development.",
+    "language": "Groovy",
+    "stargazers_count": 28,
+    "forks_count": 19,
+    "topics": [
+      "aem",
+      "groovy",
+      "jcr",
+      "mock",
+      "sling",
+      "spock"
+    ]
+  },
+  {
+    "name": "veneer",
+    "html_url": "https://github.com/CID15/veneer",
+    "description": "Veneer provides a set of enhancements to the Adobe Experience Manager WCM foundation APIs and additional Sling Models Injectors to facilitate rapid development of AEM components and services.",
+    "language": "Java",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "topics": []
+  },
+  {
+    "name": "akamai-purge-replication-event-handler",
+    "html_url": "https://github.com/icfnext/akamai-purge-replication-event-handler",
+    "description": "OSGi bundle for Adobe Experience Manager (AEM) providing a replication event handler and Akamai Fast Purge API client to purge content from Akamai when content is replicated.",
+    "language": "Java",
+    "stargazers_count": 4,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "osgi-bundle-status-maven-plugin",
+    "html_url": "https://github.com/icfnext/osgi-bundle-status-maven-plugin",
+    "description": "Remote bundle status checker for OSGi containers.",
+    "language": "Groovy",
+    "stargazers_count": 8,
+    "forks_count": 6,
+    "topics": [
+      "aem",
+      "groovy",
+      "jersey",
+      "maven",
+      "osgi"
+    ]
+  },
+  {
+    "name": "aem-package-maven-plugin",
+    "html_url": "https://github.com/icfnext/aem-package-maven-plugin",
+    "description": "Uploads, installs, and/or replicates the package artifact for a Maven project to AEM Package Manager.",
+    "language": "Java",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "topics": [
+      "aem",
+      "groovy",
+      "java",
+      "jcr",
+      "jersey",
+      "maven"
+    ]
+  },
+  {
+    "name": "aem-groovy-extension",
+    "html_url": "https://github.com/icfnext/aem-groovy-extension",
+    "description": "OSGi bundle containing Groovy builders and metaclasses for Adobe Experience Manager.",
+    "language": "Groovy",
+    "stargazers_count": 4,
+    "forks_count": 10,
+    "topics": [
+      "adobe-cq",
+      "aem",
+      "groovy",
+      "osgi"
+    ]
+  },
+  {
+    "name": "aem-library",
+    "html_url": "https://github.com/icfnext/aem-library",
+    "description": "The AEM Library provides a sturdy foundation for bootstrapping and simplifying for Adobe Experience Manager projects.",
+    "language": "Groovy",
+    "stargazers_count": 23,
+    "forks_count": 18,
+    "topics": [
+      "adobe-cq",
+      "aem",
+      "groovy",
+      "java",
+      "jcr",
+      "sling"
+    ]
+  },
+  {
+    "name": "cacheable-renditions",
+    "html_url": "https://github.com/AvionosLLC/cacheable-renditions",
+    "description": "OSGi bundle for Adobe Experience Manager (AEM) that provides Dispatcher-cacheable paths for asset renditions.",
+    "language": "Java",
+    "stargazers_count": 4,
+    "forks_count": 3,
+    "topics": []
+  },
+  {
+    "name": "purge-surgeon",
+    "html_url": "https://github.com/AvionosLLC/purge-surgeon",
+    "description": "OSGi bundle for Adobe Experience Manager (AEM) providing a replication preprocessor and Akamai Fast Purge API client to purge cached content from Akamai when content is replicated from AEM.",
+    "language": "Java",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "groovy-console-csv-extension",
+    "html_url": "https://github.com/AvionosLLC/groovy-console-csv-extension",
+    "description": "AEM Groovy Console Extension that uses the Apache Commons CSV library to provide a binding for rendering CSV output.",
+    "language": "Groovy",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "topics": []
+  },
+  {
+    "name": "sling-org-apache-sling-testing-clients",
+    "html_url": "https://github.com/markdaugherty/sling-org-apache-sling-testing-clients",
+    "description": "Apache Sling Testing Clients",
+    "language": "Java",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "topics": []
+  }
+]
