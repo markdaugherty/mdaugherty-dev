@@ -32,10 +32,8 @@ function pick(repo) {
   }, {});
 }
 
-async function fetchRepos(username, type) {
-  const base = type === 'org'
-    ? `https://api.github.com/orgs/${encodeURIComponent(username)}/repos`
-    : `https://api.github.com/users/${encodeURIComponent(username)}/repos`;
+async function fetchRepo(owner, repo) {
+  const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
 
   const headers = {
     Accept: 'application/vnd.github+json',
@@ -44,16 +42,13 @@ async function fetchRepos(username, type) {
   const token = process.env.GITHUB_TOKEN;
   if (token) headers.Authorization = `Bearer ${token}`;
 
-  const response = await fetch(
-    `${base}?per_page=100&sort=updated&direction=desc`,
-    { headers },
-  );
+  const response = await fetch(url, { headers });
 
   if (!response.ok) {
-    throw new Error(`GitHub API returned ${response.status} for ${username}`);
+    throw new Error(`GitHub API returned ${response.status} for ${owner}/${repo}`);
   }
 
-  return (await response.json()).map(pick);
+  return pick(await response.json());
 }
 
 async function main() {
@@ -61,16 +56,22 @@ async function main() {
   mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const results = await Promise.allSettled(
-    config.map(async ({ username, type }) => {
-      const repos = await fetchRepos(username, type || 'user');
-      const outPath = join(OUTPUT_DIR, `${username}.json`);
-      writeFileSync(outPath, JSON.stringify(repos, null, 2));
-      console.log(`✓ ${username}: ${repos.length} repos → ${outPath}`);
+    config.map(async (entry) => {
+      const [owner, repo] = entry.split('/');
+      const data = await fetchRepo(owner, repo);
+      console.log(`✓ ${entry}`);
+      return data;
     }),
   );
 
   const failures = results.filter((r) => r.status === 'rejected');
   failures.forEach((r) => console.error('✗', r.reason.message));
+
+  const repos = results.filter((r) => r.status === 'fulfilled').map((r) => r.value);
+  const outPath = join(OUTPUT_DIR, 'repos.json');
+  writeFileSync(outPath, JSON.stringify(repos, null, 2));
+  console.log(`\n${repos.length} repos → ${outPath}`);
+
   if (failures.length > 0) process.exit(1);
 }
 
