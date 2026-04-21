@@ -98,10 +98,6 @@ h6 {
   scroll-margin: 40px;
 }
 
-h3 {
-  margin-bottom: 0.8em;
-}
-
 h1 { font-size: var(--heading-font-size-xxl); }
 h2 { font-size: var(--heading-font-size-xl); }
 h3 { font-size: var(--heading-font-size-l); }
