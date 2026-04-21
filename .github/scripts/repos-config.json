@@ -1,3 +1,14 @@
 [
-  { "username": "markdaugherty", "type": "user" }
+  "orbinson/aem-groovy-console",
+  "icfnext/prosper",
+  "CID15/veneer",
+  "icfnext/akamai-purge-replication-event-handler",
+  "icfnext/osgi-bundle-status-maven-plugin",
+  "icfnext/aem-package-maven-plugin",
+  "icfnext/aem-groovy-extension",
+  "icfnext/aem-library",
+  "AvionosLLC/cacheable-renditions",
+  "AvionosLLC/purge-surgeon",
+  "AvionosLLC/groovy-console-csv-extension",
+  "markdaugherty/sling-org-apache-sling-testing-clients"
 ]
