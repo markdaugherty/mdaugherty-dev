@@ -76,6 +76,15 @@ body.appear {
   display: block;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  border: 8px solid black;
+  pointer-events: none;
+  z-index: 9999;
+}
+
 footer .footer {
   visibility: hidden;
 }
@@ -99,8 +108,16 @@ h6 {
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
+
+main > .section:first-of-type :is(h1, h2, h3, h4, h5, h6):first-child {
+  padding-top: 1em;
+}
 h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); margin-bottom: 0.8em; }
+
+h3 {
+  font-size: var(--heading-font-size-l);
+  margin-bottom: 0.8em;
+}
 h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
