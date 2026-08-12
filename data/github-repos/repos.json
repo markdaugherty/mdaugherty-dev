@@ -4,7 +4,7 @@
     "html_url": "https://github.com/orbinson/aem-groovy-console",
     "description": "The AEM Groovy Console provides an interface for running Groovy scripts in the AEM container. Scripts can be created to manipulate content in the JCR, call OSGi services, or execute arbitrary code using the CQ, Sling, or JCR APIs.",
     "language": "JavaScript",
-    "stargazers_count": 25,
+    "stargazers_count": 26,
     "forks_count": 8,
     "topics": [
       "aem",
