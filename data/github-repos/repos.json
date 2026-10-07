@@ -19,7 +19,7 @@
     "description": "A Spock-based integration testing library for prosperous AEM development.",
     "language": "Groovy",
     "stargazers_count": 29,
-    "forks_count": 19,
+    "forks_count": 17,
     "topics": [
       "aem",
       "groovy",
@@ -44,7 +44,7 @@
     "description": "OSGi bundle for Adobe Experience Manager (AEM) providing a replication event handler and Akamai Fast Purge API client to purge content from Akamai when content is replicated.",
     "language": "Java",
     "stargazers_count": 4,
-    "forks_count": 3,
+    "forks_count": 2,
     "topics": []
   },
   {
@@ -84,7 +84,7 @@
     "description": "OSGi bundle containing Groovy builders and metaclasses for Adobe Experience Manager.",
     "language": "Groovy",
     "stargazers_count": 4,
-    "forks_count": 10,
+    "forks_count": 9,
     "topics": [
       "adobe-cq",
       "aem",
@@ -98,7 +98,7 @@
     "description": "The AEM Library provides a sturdy foundation for bootstrapping and simplifying for Adobe Experience Manager projects.",
     "language": "Groovy",
     "stargazers_count": 23,
-    "forks_count": 18,
+    "forks_count": 17,
     "topics": [
       "adobe-cq",
       "aem",
